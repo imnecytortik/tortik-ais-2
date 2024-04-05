@@ -32,6 +32,7 @@ def test_show_without_table():
     with pytest.raises(SystemExit) as excinfo:
         main(["labtwo.py", "show"])
     assert excinfo.value.code == 1
+    
 
 def test_show():
     main(["labtwo.py", "show", "orders"])
