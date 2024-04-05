@@ -36,4 +36,3 @@ def test_show_without_table():
 
 def test_show():
     main(["labtwo.py", "show", "orders"])
-
